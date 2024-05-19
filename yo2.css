@@ -1,0 +1,160 @@
+menu
+*{padding: 0;
+margin: 0;
+}
+
+nav ul{
+    width: 98%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+   
+  
+}
+nav a {
+
+    height: 100%;
+    padding:0 50px;
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+    color: white;
+    font-family:sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    min-height: 135vh;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+nav a:hover{
+    background-color: grey;
+
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar
+{
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width:  250px;
+    z-index: 999;
+background-color:transparent ;
+box-shadow: white;
+display:none;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+backdrop-filter: blur(30px);
+}
+svg{
+    color: white;
+}
+h5{
+    text-align: center;
+    color:white
+}
+h4{
+    color:white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+img{
+width:100%;
+display: block;
+height: 300%;
+object-fit:inherit;
+object-position: bottom;
+align-items: right;
+justify-content: right;
+}
+.ignore{
+    text-align: center;
+}
+.ignore a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border:2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin:top;
+    backdrop-filter: blur(15px);
+    
+}
+.haha{
+    background-image: url(venom.jpg);
+    min-height: 124vh;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    background-size:cover;
+    height: 50px;
+    
+}
+#huh{
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.fa-brands{
+    text-align: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.mycolor{
+    background-color: black;
+}
+#bruh{
+    text-align: center;
+}
+#heading{
+    text-align:center;
+    font-size: larger;
+
+}
+#uh{
+    color: white;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+#hu{
+    color: white;
+    text-align: left;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.ignore
+{
+    text-align: center;
+}
+.ignore a{
+    text-decoration:none;
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+    border:2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin:top;
+    background-color: rgba(255, 253, 253, 0.858);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.div{
+    background-color: white;
+}
